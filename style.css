@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+    
+}
+
+body {
+    background-color: var(--Yellow);
+}
+
+.card_box {   
+    border: 2px solid;
+    position:relative;
+    padding:20px;
+    border-radius: 12px;
+    max-width: 300px;
+    margin: 100px;
+    margin-top:100px;
+    background-color: var(--White);
+    box-shadow: 10px 10px;
+    margin-left: 100px;
+}
+
+.card_box img {
+    width: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+
+}
+
+.card_details {
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+.card_details .btn {
+    background-color: var(--Yellow);
+    font-size: 16px;
+    color: var(--white);
+    padding:8px;
+    text-decoration: none;
+    justify-content: left;
+    border-radius: 12px;
+    font-weight: 800;
+    font-family:'Figtree';
+    border-color: var(--Yellow--);
+    box-shadow: none;
+    border-width:0px ;
+}
+
+.card_details h4 {
+    font-family: 'Figtree';
+}
+
+.card_details h2 {
+    font-family: 'Figtree';
+    color: var(--Black);
+    font-size: 20px;
+    text-decoration: none; 
+    font-weight: 800;   
+
+}
+
+.author {
+    display:flex;
+    gap:20px;;
+    align-items: center;
+}
+
+.card_details p {
+    font-family: 'Figtree';
+    line-height: 24px;
+}
+
+.card_details a {
+    text-decoration: none;
+}
+
+ a:hover h2{
+    color: var(--Yellow);
+}
+
+.author img {
+    width:50px;
+    height:50px;
+}
+
+.attribution {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media (min-width:991px){
+    body {
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        display: flex;
+     }
+    }
+
+@media (min-width:767px){
+     body {
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    display: flex;
+}  
+    }
+
+
+@media (min-width:479px){
+body {
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    display: flex;
+}
+}
+
+@media (min-width:320px){
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+     }
+    }
